@@ -1,0 +1,112 @@
+footer a {
+    text-decoration: none;
+}
+
+.ftco-footer {
+    font-size: 16px;
+    padding: 7em 0;
+    z-index: 0;
+    border-top: 1px solid rgba(0, 0, 0, .05);
+
+    .ftco-footer-logo {
+        text-transform: uppercase;
+        letter-spacing: .1em;
+    }
+
+    .ftco-footer-widget {
+        h2 {
+            font-weight: normal;
+            color: $black;
+            margin-bottom: 40px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        ul {
+            li {
+                a {
+                    color: rgba(0, 0, 0, .5);
+
+                    span {
+                        color: rgba(0, 0, 0, .1);
+                    }
+                }
+            }
+        }
+
+        .btn-primary {
+            background: $white !important;
+            border: 2px solid $white !important;
+
+            &:hover {
+                background: $white;
+                border: 2px solid $white !important;
+            }
+        }
+    }
+
+    p {
+        color: rgba(0, 0, 0, .5);
+    }
+
+    a {
+        color: rgba(0, 0, 0, .5);
+
+        &:hover {
+            color: $primary;
+        }
+    }
+
+    .ftco-heading-2 {
+        font-size: 17px;
+        font-weight: 400;
+        color: $black;
+    }
+}
+
+.ftco-footer-social {
+    li {
+        list-style: none;
+        margin: 0 10px 0 0;
+        display: inline-block;
+
+        a {
+            height: 40px;
+            width: 40px;
+            display: block;
+            float: left;
+            color: $primary;
+            border-radius: 50%;
+            position: relative;
+            background: $primary;
+
+            span {
+                position: absolute;
+                font-size: 18px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: $white !important;
+            }
+
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
+
+.footer-small-nav {
+    >li {
+        display: inline-block;
+
+        a {
+            margin: 0 10px 10px 0;
+
+            &:hover,
+            &:focus {
+                color: $primary;
+            }
+        }
+    }
+}

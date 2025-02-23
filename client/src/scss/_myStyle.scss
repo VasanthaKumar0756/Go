@@ -1,0 +1,67 @@
+
+
+.video-container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.hoverVideo {
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+    object-fit: inherit;
+}
+
+
+
+
+
+
+
+.bg-theme {
+    background-color: #c2d234 !important;
+}
+
+#sidebar>.nav-item>.nav-treeview>.nav-item>.nav-link {
+    color: #c2d234;
+}
+
+#sidebar>.nav-item>.nav-treeview>.nav-item>.nav-link.active {
+    color: black;
+}
+
+@media (min-width: 992px) {
+
+    .sidebar-mini.sidebar-collapse .sidebar .nav-sidebar .nav-link .link-2,
+    .sidebar-mini.sidebar-collapse .sidebar .nav-sidebar .nav-link .link-1 span {
+        width: 0;
+        white-space: nowrap;
+    }
+
+
+    .sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand):hover .sidebar .nav-sidebar .nav-link .link-2,
+    .sidebar-mini.sidebar-collapse .main-sidebar:not(.sidebar-no-expand):hover .sidebar .nav-sidebar .nav-link .link-1 span {
+        display: inline-block;
+        margin-left: 0;
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+        -webkit-animation-duration: 0.3s;
+        animation-duration: 0.3s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        visibility: visible;
+    }
+
+    .sidebar-mini.sidebar-collapse .sidebar .nav-sidebar .nav-link .link-2,
+    .sidebar-mini.sidebar-collapse .sidebar .nav-sidebar .nav-link .link-1 span {
+        margin-left: -10px;
+        -webkit-animation-name: fadeOut;
+        animation-name: fadeOut;
+        -webkit-animation-duration: .3s;
+        animation-duration: .3s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        visibility: hidden;
+    }
+}

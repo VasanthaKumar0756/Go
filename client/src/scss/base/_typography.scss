@@ -1,0 +1,313 @@
+html {
+	// overflow-x: hidden;
+}
+
+body {
+	font-family: $font-primary;
+	background: $white;
+	font-size: 16px;
+	line-height: 1.8;
+	font-weight: 400;
+	color: lighten($black, 60%);
+
+	&.menu-show {
+		overflow: hidden;
+		position: fixed;
+		height: 100%;
+		width: 100%;
+	}
+}
+
+a {
+	transition: .3s all ease;
+	color: $primary;
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		color: $primary;
+		outline: none !important;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+	line-height: 1.5;
+	color: rgba(0, 0, 0, .8);
+	font-weight: 400;
+	font-family: $font-primary;
+}
+
+.text-primary {
+	color: $primary !important;
+}
+
+.boxed-btn4 {
+	background: #FF4A52;
+	color: #fff;
+	display: inline-block;
+	padding: 13px 39px;
+	font-family: "Rubik", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	border: 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+	text-transform: capitalize;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.default-banner {
+	margin-top: -48px;
+}
+
+@media (max-width: 991px) {
+	.default-banner {
+		text-align: center;
+	}
+}
+
+.default-banner h1 {
+	color: #222;
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 1em;
+	margin-bottom: 10px;
+}
+
+.default-banner h1 span {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+@media (max-width: 991px) {
+	.default-banner h1 {
+		font-size: 36px;
+
+		br {
+			display: none;
+		}
+	}
+}
+
+
+@media (max-width: 1199px) {
+	.default-banner h1 {
+		font-size: 45px;
+	}
+}
+
+@media (max-width: 414px) {
+	.default-banner h1 {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 800px) {
+	.default-banner {
+		padding-bottom: 40px;
+	}
+}
+
+//COVER BG
+.img,
+.blog-img,
+.user-img {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.bg-bottom {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+
+.ftco-no-pt {
+	padding-top: 0 !important;
+}
+
+.ftco-section {
+	// padding: 7em 0;
+	padding: 2em 0;
+	position: relative;
+	width: 100%;
+
+	@include media-breakpoint-down(sm) {
+		padding: 6em 0;
+	}
+}
+
+.heading-section {
+	.subheading {
+		font-size: 30px;
+		display: block;
+		margin-bottom: 5px;
+		// font-weight: 700;
+		color: $primary;
+		font-family: $font-secondary;
+	}
+
+	h2 {
+		font-size: 40px;
+		font-weight: 600;
+		line-height: 1.4;
+		color: #9c9494; //
+
+		span {
+			font-weight: 400;
+		}
+
+		@include media-breakpoint-down(sm) {
+			font-size: 28px;
+		}
+	}
+
+	&.heading-section-white {
+		.subheading {
+			color: rgba(255, 255, 255, .9);
+		}
+
+		h2 {
+			font-size: 40px;
+			color: $white;
+		}
+
+		p {
+			color: rgba(255, 255, 255, .9);
+		}
+	}
+}
+
+.testimony-section,
+.ftco-select-destination {
+	position: relative;
+
+	.overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		content: '';
+		@include gradient-background();
+		opacity: .6;
+	}
+
+	.owl-carousel {
+		margin: 0;
+	}
+
+	.owl-carousel .owl-stage-outer {
+		padding: 1em 0 1em 0;
+		position: relative;
+	}
+
+	.owl-nav {
+		position: absolute;
+		top: 100%;
+		width: 100%;
+
+		.owl-prev,
+		.owl-next {
+			position: absolute;
+			transform: translateY(-50%);
+			margin-top: -10px;
+			outline: none !important;
+			@include transition(.3s);
+
+			span {
+				&:before {
+					font-size: 30px;
+					color: rgba(0, 0, 0, .5);
+					@include transition(.3s);
+				}
+			}
+
+			&:hover,
+			&:focus {
+				span {
+					&:before {
+						color: $white;
+					}
+				}
+			}
+
+			opacity: 0;
+		}
+
+		.owl-prev {
+			left: 50%;
+			margin-left: -80px;
+		}
+
+		.owl-next {
+			right: 50%;
+			margin-right: -80px;
+		}
+	}
+
+	&:hover {
+		.owl-nav {
+
+			.owl-prev,
+			.owl-next {
+				opacity: 1;
+			}
+
+			.owl-prev {
+				left: 50%;
+				margin-left: -80px;
+			}
+
+			.owl-next {
+				right: 50%;
+				margin-right: -80px;
+			}
+		}
+	}
+
+	.owl-dots {
+		text-align: center;
+
+		.owl-dot {
+			width: 10px;
+			height: 10px;
+			margin: 5px;
+			border-radius: 50%;
+			background: rgba(0, 0, 0, .1);
+
+			&.active,
+			&:focus {
+				background: $primary;
+				outline: none;
+			}
+		}
+	}
+}
+
+.carousel-destination {
+	display: flex;
+	gap: 1rem;
+	// flex-wrap: wrap;
+}
+
+.ftco-animate {
+	// opacity: 0;
+	// visibility: hidden;
+}
