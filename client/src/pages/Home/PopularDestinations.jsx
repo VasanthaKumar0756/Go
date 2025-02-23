@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const bgImage = "/images/bg_3.jpg";
 const place1 = "/images/place-1.jpg";
 const place2 = "/images/place-2.jpg";
@@ -23,51 +25,47 @@ const PopularDestinations = () => {
                         <div className="carousel-destination owl-carousel ftco-animate">
                             <div className="item destination-card destination-card-x">
                                 <div className="project-destination">
-                                    <a href="#" className="img"
-                                        style={{ backgroundImage: `url(${place1})` }}>
+                                    <Link to="#" className="img" style={{ backgroundImage: `url(${place1})` }}>
                                         <div className="text">
                                             <h3>Philippines</h3><span>8 Tours</span>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="item destination-card destination-card-x">
                                 <div className="project-destination">
-                                    <a href="#" className="img" style={{ backgroundImage: `url(${place2})` }}>
+                                    <Link to="#" className="img" style={{ backgroundImage: `url(${place2})` }}>
                                         <div className="text">
-                                            <h3>Canada</h3>
-                                            <span>2 Tours</span>
+                                            <h3>Canada</h3><span>2 Tours</span>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="item destination-card destination-card-x">
                                 <div className="project-destination">
-                                    <a href="#" className="img" style={{ backgroundImage: `url(${place3})` }}>
+                                    <Link to="#" className="img" style={{ backgroundImage: `url(${place3})` }}>
                                         <div className="text">
-                                            <h3>Thailand</h3>
-                                            <span>5 Tours</span>
+                                            <h3>Thailand</h3><span>5 Tours</span>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="item destination-card destination-card-x">
                                 <div className="project-destination">
-                                    <a href="#" className="img" style={{ backgroundImage: `url(${place4})` }}>
+                                    <Link to="#" className="img" style={{ backgroundImage: `url(${place4})` }}>
                                         <div className="text">
-                                            <h3>Australia</h3>
-                                            <span>5 Tours</span>
+                                            <h3>Australia</h3><span>5 Tours</span>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             {/* <div className="item destination-card destination-card-x">
                                 <div className="project-destination">
-                                    <a href="#" className="img" style={{ backgroundImage: `url(${place5})` }}>
+                                    <Link to="#" className="img" style={{ backgroundImage: `url(${place5})` }}>
                                         <div className="text">
                                             <h3>Greece</h3><span>7 Tours</span>
                                         </div>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div> */}
                         </div>

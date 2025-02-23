@@ -5,7 +5,7 @@ const person3 = '/images/person_3.jpg';
 
 const Feedback = () => {
     return (
-        <section className="ftco-section testimony-section bg-bottom" style={{ backgroundImage: `url(${bg1})` }}>
+        <section className="ftco-section testimony-section bg-bottom" style={{ backgroundImage: `url(${bg1})`, backgroundPosition: "center" }}>
             <div className="overlay"></div>
             <div className="container">
                 <div className="row justify-content-center pb-4">
@@ -86,7 +86,7 @@ const Feedback = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="item">
+                            {/* <div className="item">
                                 <div className="testimony-wrap py-4">
                                     <div className="text">
                                         <p className="star">
@@ -131,7 +131,7 @@ const Feedback = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

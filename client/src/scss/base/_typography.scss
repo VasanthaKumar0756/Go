@@ -154,6 +154,9 @@ h5,
 }
 
 .heading-section {
+	position: relative;
+	z-index: 2;
+
 	.subheading {
 		font-size: 30px;
 		display: block;
@@ -301,13 +304,13 @@ h5,
 	}
 }
 
+.carousel-testimony,
 .carousel-destination {
 	display: flex;
 	gap: 1rem;
-	// flex-wrap: wrap;
 }
 
 .ftco-animate {
-	// opacity: 0;
-	// visibility: hidden;
+	opacity: 1;
+	visibility: visible;
 }

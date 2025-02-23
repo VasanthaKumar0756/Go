@@ -12039,6 +12039,10 @@ h5,
   }
 }
 
+.heading-section {
+  position: relative;
+  z-index: 2;
+}
 .heading-section .subheading {
   font-size: 30px;
   display: block;
@@ -12189,9 +12193,15 @@ h5,
   outline: none;
 }
 
+.carousel-testimony,
 .carousel-destination {
   display: flex;
   gap: 1rem;
+}
+
+.ftco-animate {
+  opacity: 1;
+  visibility: visible;
 }
 
 .ftco-navbar-light {
@@ -12846,6 +12856,12 @@ h5,
 
 .project-wrap {
   margin-bottom: 30px;
+}
+.project-wrap a {
+  text-decoration: none;
+}
+.project-wrap .text ul li span.fi {
+  font-size: 16px;
 }
 .project-wrap .img {
   display: block;
