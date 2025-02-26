@@ -31,7 +31,7 @@ const Footer = () => {
                                             </div>
                                             <div className="col-lg-3 col-md-4">
                                                 <div className="newsletter_btn">
-                                                    <button className="boxed-btn4" type="submit">Subscribe</button>
+                                                    <button className="btn btn-danger" type="submit">Subscribe</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -43,9 +43,9 @@ const Footer = () => {
                 </div>
             </div>
             <br />
-
-
             {/* newsletter_area_end */}
+
+
             <footer className="ftco-footer bg-bottom ftco-no-pt" style={{ backgroundImage: `url(${bg3})` }}>
                 <div className="container">
                     <div className="row mb-5">
@@ -61,8 +61,8 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md pt-5 border-left">
-                            <div className="ftco-footer-widget pt-md-5 mb-4 ml-md-5">
+                        <div className="col-md pt-5 border-start">
+                            <div className="ftco-footer-widget pt-md-5 mb-4 ms-md-5">
                                 <h2 className="ftco-heading-2">Infromation</h2>
                                 <ul className="list-unstyled">
                                     <li><Link to="#" className="py-2 d-block">Online Enquiry</Link></li>
@@ -74,7 +74,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md pt-5 border-left">
+                        <div className="col-md pt-5 border-start">
                             <div className="ftco-footer-widget pt-md-5 mb-4">
                                 <h2 className="ftco-heading-2">Experience</h2>
                                 <ul className="list-unstyled">
@@ -87,7 +87,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md pt-5 border-left">
+                        <div className="col-md pt-5 border-start">
                             <div className="ftco-footer-widget pt-md-5 mb-4">
                                 <h2 className="ftco-heading-2">Have a Questions?</h2>
                                 <div className="block-23 mb-3">
@@ -98,8 +98,9 @@ const Footer = () => {
                                         <li><Link to="#"><span className="icon"><FaPhoneAlt /></span>
                                             <span className="text">xxxxxxxxx</span>
                                         </Link></li>
-                                        <li><Link to="#"><span className="icon"><FaPaperPlane /></span><span
-                                            className="text">info@yourdomain.com</span></Link></li>
+                                        <li><Link to="#"><span className="icon"><FaPaperPlane /></span>
+                                            <span className="text">info@yourdomain.com</span></Link>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>

@@ -11,11 +11,11 @@ const SearchSection = () => {
               <div className="row">
                 <div className="col-md-12 nav-link-wrap">
                   <div className="nav nav-pills text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <Link className="nav-link active mr-md-1" id="v-pills-1-tab" data-toggle="pill"
+                    <Link className="nav-link active me-md-1" id="v-pills-1-tab" data-bs-toggle="pill"
                       to="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Find your Dream
                     </Link>
 
-                    {/* <a className="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2"
+                    {/* <a className="nav-link" id="v-pills-2-tab" data-bs-toggle="pill" href="#v-pills-2"
                                     role="tab" aria-controls="v-pills-2" aria-selected="false">Hotel</a> */}
 
                   </div>

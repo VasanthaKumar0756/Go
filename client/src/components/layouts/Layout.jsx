@@ -1,5 +1,5 @@
+import { Outlet } from 'react-router-dom';
 import Navbar from './partials/Navbar';
-import HomePage from '../../pages/Home/HomePage';
 import Footer from './partials/Footer';
 import Loader from './partials/Loader';
 
@@ -7,7 +7,7 @@ const Layout = () => {
     return (
         <>
             <Navbar />
-            <HomePage />
+            <main><Outlet /></main>
             <Footer />
             <Loader />
         </>

@@ -1,3 +1,5 @@
+import { FaStar } from "react-icons/fa";
+
 const bg1 = '/images/bg_1.jpg';
 const person1 = '/images/person_1.jpg';
 const person2 = '/images/person_2.jpg';
@@ -21,18 +23,19 @@ const Feedback = () => {
                                 <div className="testimony-wrap py-4">
                                     <div className="text">
                                         <p className="star">
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
+                                            <span><FaStar /></span>
+                                            <span><FaStar /></span>
+                                            <span><FaStar /></span>
+                                            <span><FaStar /></span>
+                                            <span><FaStar /></span>
                                         </p>
-                                        <p className="mb-4">Far far away, behind the word mountains, far from the countries
-                                            Vokalia and Consonantia, there live the blind texts.</p>
+                                        <p className="mb-4">
+                                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                        </p>
                                         <div className="d-flex align-items-center">
                                             <div className="user-img" style={{ backgroundImage: `url(${person1})` }}>
                                             </div>
-                                            <div className="pl-3">
+                                            <div className="ps-3">
                                                 <p className="name">Roger Scott</p>
                                                 <span className="position">Marketing Manager</span>
                                             </div>
@@ -44,18 +47,18 @@ const Feedback = () => {
                                 <div className="testimony-wrap py-4">
                                     <div className="text">
                                         <p className="star">
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
+                                            <span><FaStar /></span>
+                                            <span><FaStar /></span>
+                                            <span><FaStar /></span>
+                                            <span><FaStar /></span>
+                                            <span><FaStar /></span>
                                         </p>
-                                        <p className="mb-4">Far far away, behind the word mountains, far from the countries
-                                            Vokalia and Consonantia, there live the blind texts.</p>
+                                        <p className="mb-4">
+                                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                        </p>
                                         <div className="d-flex align-items-center">
-                                            <div className="user-img" style={{ backgroundImage: `url(${person2})` }}>
-                                            </div>
-                                            <div className="pl-3">
+                                            <div className="user-img" style={{ backgroundImage: `url(${person2})` }}></div>
+                                            <div className="ps-3">
                                                 <p className="name">Roger Scott</p>
                                                 <span className="position">Marketing Manager</span>
                                             </div>
@@ -67,18 +70,18 @@ const Feedback = () => {
                                 <div className="testimony-wrap py-4">
                                     <div className="text">
                                         <p className="star">
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
-                                            <span className="fa fa-star"></span>
+                                            <span><FaStar /></span>
+                                            <span><FaStar /></span>
+                                            <span><FaStar /></span>
+                                            <span><FaStar /></span>
+                                            <span><FaStar /></span>
                                         </p>
-                                        <p className="mb-4">Far far away, behind the word mountains, far from the countries
-                                            Vokalia and Consonantia, there live the blind texts.</p>
+                                        <p className="mb-4">
+                                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                        </p>
                                         <div className="d-flex align-items-center">
-                                            <div className="user-img" style={{ backgroundImage: `url(${person3})` }}>
-                                            </div>
-                                            <div className="pl-3">
+                                            <div className="user-img" style={{ backgroundImage: `url(${person3})` }}></div>
+                                            <div className="ps-3">
                                                 <p className="name">Roger Scott</p>
                                                 <span className="position">Marketing Manager</span>
                                             </div>

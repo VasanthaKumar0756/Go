@@ -14,6 +14,8 @@
 
 @import './pages/homePage';
 
+@import './pages/aboutPage';
+
 @import './layout/footer';
 
 @import './layout/loader';
@@ -21,92 +23,6 @@
 
 
 
-.slider-text {
-	position: relative;
-
-	.subheading {
-		font-size: 30px;
-		color: $primary;
-		font-family: $font-secondary;
-	}
-
-	h1 {
-		font-size: 55px;
-		color: $white;
-		line-height: 1.2;
-		font-weight: 700;
-
-		@include media-breakpoint-down(md) {
-			font-size: 40px;
-		}
-
-		@include media-breakpoint-down(sm) {
-			font-size: 30px;
-		}
-	}
-
-	p {
-		font-size: 20px;
-		line-height: 1.5;
-		font-weight: 300;
-		color: rgba(255, 255, 255, .9);
-
-		strong {
-			font-weight: 700;
-
-			a {
-				color: $black;
-			}
-		}
-
-		&.caps {
-			font-weight: 400;
-			font-size: 16px;
-		}
-	}
-
-	.breadcrumbs {
-		font-size: 16px;
-		margin-bottom: 20px;
-		z-index: 99;
-		font-weight: 400;
-
-		span {
-			color: rgba(255, 255, 255, .8);
-
-			i {
-				color: rgba(255, 255, 255, .8);
-			}
-
-			a {
-				color: rgba(255, 255, 255, 1);
-
-				&:hover,
-				&:focus {
-					color: $primary;
-
-					i {
-						color: $primary;
-					}
-				}
-			}
-		}
-	}
-
-	.bread {
-		font-weight: 700;
-	}
-
-	.icon-video {
-		margin: 0 0 0 auto;
-
-		@include media-breakpoint-down(sm) {
-			position: absolute;
-			top: 7em;
-			left: 0;
-		}
-	}
-}
 
 .icon-video {
 	width: 80px;

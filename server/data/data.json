@@ -1,0 +1,80 @@
+{
+    "blogPosts": [
+        {
+            "id": "1",
+            "title": "Exploring the Amalfi Coast",
+            "author": "Jane Doe",
+            "date": "2024-02-23",
+            "location": {
+                "city": "Positano",
+                "country": "Italy"
+            },
+            "tags": [
+                "travel",
+                "Italy",
+                "Amalfi Coast",
+                "beach"
+            ],
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "The Amalfi Coast is a stunning destination with picturesque towns and breathtaking views."
+                },
+                {
+                    "type": "image",
+                    "url": "https://example.com/amalfi.jpg",
+                    "altText": "View of Positano"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "We explored the charming streets of Positano and enjoyed delicious Italian cuisine."
+                }
+            ],
+            "comments": [
+                {
+                    "author": "John Smith",
+                    "date": "2024-02-24",
+                    "text": "Great post! I've always wanted to visit the Amalfi Coast."
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "A Weekend in Kyoto",
+            "author": "Alice Johnson",
+            "date": "2024-02-20",
+            "location": {
+                "city": "Kyoto",
+                "country": "Japan"
+            },
+            "tags": [
+                "travel",
+                "Japan",
+                "Kyoto",
+                "temples"
+            ],
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Kyoto is a city of ancient temples, beautiful gardens, and traditional culture."
+                },
+                {
+                    "type": "image",
+                    "url": "https://example.com/kyoto.jpg",
+                    "altText": "Kinkaku-ji Temple"
+                },
+                {
+                    "type": "paragraph",
+                    "text": "We visited the famous Kinkaku-ji Temple and enjoyed a traditional tea ceremony."
+                }
+            ],
+            "comments": [
+                {
+                    "author": "Bob Williams",
+                    "date": "2024-02-21",
+                    "text": "Thanks for sharing your experience! Kyoto is definitely on my bucket list."
+                }
+            ]
+        }
+    ]
+}

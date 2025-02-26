@@ -70,6 +70,11 @@
     font-weight: 300;
 }
 
+.newsletter_area .mail_form .row {
+    display: flex;
+    align-items:baseline;
+}
+
 .newsletter_area .mail_form .newsletter_field input:focus {
     outline: none;
 }
@@ -83,13 +88,14 @@
 @media (min-width: 768px) and (max-width: 991px) {
     .newsletter_area .mail_form .newsletter_btn button {
         width: auto;
+        height: auto;
         padding: 13px 40px;
     }
 }
 
 .newsletter_text {
-	font-size: 14px;
-	color: #AAB1B7;
-	line-height: 26px;
-	font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    color: #AAB1B7;
+    line-height: 26px;
+    font-family: "Rubik", sans-serif;
 }

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const image1 = '/images/image_1.jpg';
 const image2 = '/images/image_2.jpg';
 const image3 = '/images/image_3.jpg';
@@ -16,9 +18,9 @@ const Posts = () => {
                 <div className="row d-flex">
                     <div className="col-md-4 d-flex ftco-animate">
                         <div className="blog-entry justify-content-end">
-                            <a href="{{ url('/blog') }}" className="block-20"
+                            <Link to="/blog" className="block-20"
                                 style={{ backgroundImage: `url(${image1})` }}>
-                            </a>
+                            </Link>
                             <div className="text">
                                 <div className="d-flex align-items-center mb-4 topp">
                                     <div className="one">
@@ -29,17 +31,17 @@ const Posts = () => {
                                         <span className="mos">September</span>
                                     </div>
                                 </div>
-                                <h3 className="heading"><a href="#">Most Popular Place In This World</a></h3>
+                                <h3 className="heading"><Link to="#" style={{ textDecoration: 'none' }}>Most Popular Place In This World</Link></h3>
                                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                                <p><a href="#" className="btn btn-primary">Read more</a></p>
+                                <p><Link to="#" className="btn btn-primary">Read more</Link></p>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 d-flex ftco-animate">
                         <div className="blog-entry justify-content-end">
-                            <a href="blog-single.html" className="block-20"
+                            <Link to="blog-single.html" className="block-20"
                                 style={{ backgroundImage: `url(${image2})` }}>
-                            </a>
+                            </Link>
                             <div className="text">
                                 <div className="d-flex align-items-center mb-4 topp">
                                     <div className="one">
@@ -50,17 +52,17 @@ const Posts = () => {
                                         <span className="mos">September</span>
                                     </div>
                                 </div>
-                                <h3 className="heading"><a href="#">Most Popular Place In This World</a></h3>
+                                <h3 className="heading"><Link to="#" style={{ textDecoration: 'none' }} >Most Popular Place In This World</Link></h3>
                                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                                <p><a href="#" className="btn btn-primary">Read more</a></p>
+                                <p><Link to="#" className="btn btn-primary">Read more</Link></p>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 d-flex ftco-animate">
                         <div className="blog-entry">
-                            <a href="blog-single.html" className="block-20"
+                            <Link to="blog-single.html" className="block-20"
                                 style={{ backgroundImage: `url(${image3})` }}>
-                            </a>
+                            </Link>
                             <div className="text">
                                 <div className="d-flex align-items-center mb-4 topp">
                                     <div className="one">
@@ -71,9 +73,9 @@ const Posts = () => {
                                         <span className="mos">September</span>
                                     </div>
                                 </div>
-                                <h3 className="heading"><a href="#">Most Popular Place In This World</a></h3>
-                                 <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p> 
-                                <p><a href="#" className="btn btn-primary">Read more</a></p>
+                                <h3 className="heading"><Link to="#" style={{ textDecoration: 'none' }}>Most Popular Place In This World</Link></h3>
+                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                                <p><Link to="#" className="btn btn-primary">Read more</Link></p>
                             </div>
                         </div>
                     </div>
