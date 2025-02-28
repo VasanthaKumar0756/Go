@@ -20,7 +20,7 @@ const Navbar = () => {
         { to: "/about", label: "About" },
         { to: "/destinations", label: "Destinations" },
         { to: "/blogs", label: "Blogs" },
-        { to: "/hotels", label: "Hotels" },
+        // { to: "/hotels", label: "Hotels" },
         { to: "/contact", label: "Contact" },
     ];
 

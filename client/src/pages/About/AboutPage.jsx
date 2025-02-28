@@ -6,9 +6,14 @@ import Feedback from "../Home/Feedback";
 
 
 const AboutPage = () => {
+    const page = {
+        title: 'About us',
+        image: '/images/bg_1.jpg',
+    };
+
     return (
         <>
-            <AboutUs />
+            <AboutUs page={page} />
             <Welcome />
             <MemorableVideo />
             <Memorable />

@@ -18,7 +18,7 @@ const Feedback = () => {
                 </div>
                 <div className="row ftco-animate">
                     <div className="col-md-12">
-                        <div className="carousel-testimony owl-carousel">
+                        <div className="carousel-testimony slick-carousel">
                             <div className="item">
                                 <div className="testimony-wrap py-4">
                                     <div className="text">

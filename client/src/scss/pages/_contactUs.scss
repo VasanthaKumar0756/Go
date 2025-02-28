@@ -1,0 +1,58 @@
+.contact-section {
+    .contact-info {
+        p {
+            a {
+                text-decoration: none;
+                color: lighten($black, 10%);
+            }
+
+            span {}
+        }
+    }
+
+    .box {
+        width: 100%;
+        display: block;
+        background: rgba(0, 0, 0, .05);
+
+        .icon {
+            width: 100px;
+            height: 100px;
+            background: $primary;
+            margin: 0 auto;
+            margin-bottom: 15px;
+            @include border-radius(50%);
+
+            span {
+                color: $white;
+                font-size: 30px;
+            }
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: $primary;
+        }
+    }
+
+    .contact-form {
+        width: 100%;
+
+        .form-group{
+            gap: 1px;
+        }
+    }
+}
+
+.block-9 {
+
+    .form-control {
+        outline: none !important;
+        box-shadow: none !important;
+        font-size: 15px;
+        margin-bottom: 1rem;
+    }
+
+    #map {}
+}
