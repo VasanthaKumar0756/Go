@@ -11899,6 +11899,10 @@ textarea.form-control-lg {
     visibility: hidden;
   }
 }
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Poppins", Arial, sans-serif;
   background: #fff;
@@ -12232,6 +12236,7 @@ h5,
 }
 .hero-wrap.hero-wrap-2 .overlay {
   width: 100%;
+  opacity: 0.2;
 }
 
 .block-27 ul {
